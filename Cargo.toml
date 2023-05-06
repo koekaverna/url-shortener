@@ -1,0 +1,15 @@
+[package]
+name = "hello-rocket"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.5"
+redis = "0.23.0"
+rocket = "=0.5.0-rc.3"
+
+[dependencies.rocket_dyn_templates]
+version = "=0.1.0-rc.3"
+features = ["tera"]
